@@ -12,12 +12,13 @@
 #define DESCRIPTION     2x2 grid
 
 /* key matrix size */
-#define MATRIX_ROWS 4
+#define MATRIX_ROWS 3
 #define MATRIX_COLS 3
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { B6, B2, B3, B1 }
-#define MATRIX_COL_PINS { B5, B4, E6 }
+#define MATRIX_ROW_PINS { B3, B2, B6 }
+#define MATRIX_COL_PINS { E6, B4, B5 }
+
 #define UNUSED_PINS
 
 #define ENCODERS_PAD_A { D1, D4 }
